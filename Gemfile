@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
+gem 'bootstrap-sass', '~> 2.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -29,6 +30,7 @@ end
 
 group :production do
   gem 'pg', '~> 0.12.2'
+  gem 'newrelic_rpm'
 end
 
 # To use ActiveModel has_secure_password
